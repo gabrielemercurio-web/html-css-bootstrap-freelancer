@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.personal-brand {
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    background-color: #31324a;
+    border: 0px solid #31324a;
+    border-radius: 0px;
+    padding: 20px 0px;
+}
+
+#navbar-right li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.jumbotron {
+    height: 600px;
+    margin-top: 90px;
+    background-color: #62c49b;
+    padding: 100px 0px 0px;
+}
+
+.row img {
+    height: 200px;
+}
+
+.row .h1 {
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.row .fa-star {
+    font-size: 30px;
+    color: #fff;
+}
+
+.row .stella::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.row .stella::before {
+    content: '';
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.row h2 {
+    font-size: 20px;
+    color: #fff;
+}
