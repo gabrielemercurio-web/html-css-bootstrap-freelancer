@@ -20,10 +20,11 @@ body {
     padding: 20px 0px;
 }
 
-#navbar-right li a {
+#menu-destra li a {
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    text-align: center;
 }
 
 .jumbotron {
@@ -74,4 +75,23 @@ body {
 .row h2 {
     font-size: 20px;
     color: #fff;
+}
+
+.nav > li > a {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-xs-12, .col-sm-12 .personal-brand {
+    text-align: center;
+}
+
+.jumbotron .col-xs-12,
+.jumbotron .col-sm-12 {
+    font-size: 26px;
+}
+
+.navbar-nav {
+    margin: 0px;
+    padding: 0px;
 }
